@@ -59,3 +59,19 @@ JavaScript provides three ways to declare variables:
 
 ---
 
+## Data Types
+
+JavaScript supports different types of values. These are called **data types**.  
+Data types define the kind of value a variable can store.
+
+### 1. String
+A **string** represents text.  
+It must be wrapped in quotes (single `' '`, double `" "`, or backticks `` ` ` ``).
+
+### 2. Number
+A number represents numeric values.
+It can be an integer or a decimal.
+
+## 3. Boolean
+A boolean represents a true or false value.
+It is commonly used in conditions.
