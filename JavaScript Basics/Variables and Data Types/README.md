@@ -28,3 +28,34 @@ Think of it as the “action” behind a webpage:
 - **Controlling Devices:** JavaScript can interact with hardware through frameworks like **Johnny-Five**.  
 - **Examples:**  
   - Home Automation: Controlling lights, thermostats, and other devices.
+
+---
+
+## What is a Variable?
+
+A **variable** is a container used to store data values.  
+It allows us to store information and reuse it later in the program.
+
+---
+
+## Declaring Variables
+
+JavaScript provides three ways to declare variables:
+
+### 1. `var`
+- The oldest way to declare a variable.
+- It has **function scope**.
+- Not recommended in modern JavaScript.
+
+### 2. `let`
+- Used when the value of a variable may change.
+- It has **block scope**.
+- Recommended in most cases.
+
+### 3. `const`
+- Used for variables that should not change after being assigned.
+- It also has **block scope**.
+- Recommended when the value should stay constant.
+
+---
+
