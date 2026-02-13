@@ -13,7 +13,7 @@ These operators are used to perform basic mathematical operations.
 - **Multiplication (`*`)** – multiplies two values  
 - **Division (`/`)** – divides one value by another  
 - **Modulus (`%`)** – returns the remainder  
-- **Increment (`++`)** – increases a value by 1  
+- **Increment (`++`)** – increases a value by 1 
 - **Decrement (`--`)** – decreases a value by 1  
 
 ---
