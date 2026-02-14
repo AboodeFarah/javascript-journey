@@ -29,3 +29,44 @@ There are two types of increment:
 - The value is increased first, then used in the operation.  
 
 ---
+
+## Comparison Operators
+
+These operators are used to compare two values.
+
+- **Equal to (`==`)**  
+  Checks if two values are equal.
+
+- **Not equal to (`!=`)**  
+  Checks if two values are not equal.
+
+- **Strictly equal to (`===`)**  
+  Checks if two values are equal and of the same type.
+
+- **Strictly not equal to (`!==`)**  
+  Checks if two values are not equal and not of the same type.
+
+- **Greater than (`>`)**  
+  Checks if one value is greater than another.
+
+- **Less than (`<`)**  
+  Checks if one value is less than another.
+
+- **Greater than or equal to (`>=`)**  
+  Checks if one value is greater than or equal to another.
+
+- **Less than or equal to (`<=`)**  
+  Checks if one value is less than or equal to another.
+
+---
+
+## Why Comparison Operators Are Important
+
+Comparison operators are commonly used in:
+
+- Conditions  
+- Decision making  
+- Control flow (like if statements and loops)  
+
+---
+
