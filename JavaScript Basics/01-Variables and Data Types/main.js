@@ -10,7 +10,9 @@ const age = "12"
 console.log(age);
 
 
+
 // data types
+
 
 
 // - **String:** Text wrapped in quotes.   

@@ -59,6 +59,7 @@ JavaScript provides three ways to declare variables:
 
 ---
 
+
 ## Data Types
 
 JavaScript supports different types of values. These are called **data types**.  
