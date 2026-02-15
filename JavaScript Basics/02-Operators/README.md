@@ -60,13 +60,15 @@ These operators are used to compare two values.
 
 ---
 
-## Why Comparison Operators Are Important
+## Logical Operators
 
-Comparison operators are commonly used in:
+These operators are used to combine or invert boolean values.
 
-- Conditions  
-- Decision making  
-- Control flow (like if statements and loops)  
+- **AND (`&&`)**  
+  Returns true if both operands are true.
 
----
+- **OR (`||`)**  
+  Returns true if at least one operand is true.
 
+- **NOT (`!`)**  
+  Inverts the boolean value (changes true to false, and false to true).
