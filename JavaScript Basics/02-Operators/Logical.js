@@ -3,6 +3,8 @@
 let isStudent = true;
 let hasPermission = false;
 
+
+
 // AND &&
 console.log(isStudent && hasPermission);  //false
 
