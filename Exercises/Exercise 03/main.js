@@ -4,3 +4,5 @@ let isSunny = true;
 let isWeekend = true;
 
 console.log("can you go to the beach?", isSunny && isWeekend);
+
+// to see the result cd "Exercise"/ and cd "Exercise\ 01"/ then open the terminal and use node main.js
