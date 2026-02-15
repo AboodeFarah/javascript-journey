@@ -26,3 +26,5 @@ console.log(a >= b); //true
 
 // // less than or equal to 
 console.log(a <= b); //true
+
+// to see the result cd "Exercise"/ and cd "Exercise\ 01"/ then open the terminal and use node main.js
