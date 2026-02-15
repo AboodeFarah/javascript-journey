@@ -72,3 +72,29 @@ These operators are used to combine or invert boolean values.
 
 - **NOT (`!`)**  
   Inverts the boolean value (changes true to false, and false to true).
+
+---
+
+## String Operators
+
+These operators are used to concatenate (combine) strings.
+
+- **Concatenation (`+`)**  
+  Combines two or more strings into one single string.
+
+- **Concatenation Assignment (`+=`)**  
+  Adds a string to an existing string variable and assigns the result back to the same variable.
+
+---
+
+## Why String Operators Are Important
+
+String operators are useful for:
+
+- Combining text values  
+- Creating dynamic messages  
+- Displaying user information  
+
+---
+
+# End of JavaScript Operators Lesson
