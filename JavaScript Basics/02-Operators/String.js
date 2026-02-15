@@ -9,6 +9,7 @@ console.log(firstName+ " " +lastName);
 //concatenate assignment
 let greeting = "Hi,"
 greeting += firstName ;
+
 greeting += lastName ;
 greeting += " welcome to the word"
 
