@@ -18,4 +18,12 @@ function greeting(name){   //parameters is name "is like variable inside functio
     console.log("hello " + name)  //here we conect the string with variable 
 }
 
-greeting("aboode farah")  //argument is the value of finction parameters
+greeting("aboode farah")  //argument is the value of function parameters
+
+
+// Return Value
+function add(a,b){
+    return a+b;     //Nothing after return runs
+}
+let result = add(20,20);     //Here we call the function with arguments 20 and 20. return 40
+console.log(result);        //prints whatever is stored in result.
