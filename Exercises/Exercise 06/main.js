@@ -3,3 +3,4 @@
 let color = ["red", "blue", "green"]
 console.log(color);
 console.log(color[0]);
+console.log(color[1]);
