@@ -1,4 +1,4 @@
 // Array
 
-let car = ["toyota", "hundia", "ford","BMW"]
+let car = ["toyota", "ford","BMW"]
 console.log(car[0])
