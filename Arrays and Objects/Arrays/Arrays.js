@@ -19,3 +19,5 @@ console.log(color);
 
 color.unshift("purple") //add elements to the begining of the array
 console.log(color);
+
+console.log(color.length);  //Returns the number of elements in an array.
