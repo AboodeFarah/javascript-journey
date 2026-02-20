@@ -37,3 +37,5 @@ Understanding index is important because it allows you to access specific elemen
 
 ### 5. `length`
 - Returns the number of elements in an array.
+
+Arrays are one of the most important data structures in JavaScript.
