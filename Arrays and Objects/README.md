@@ -16,3 +16,9 @@ An **index** is the position number of an element inside an array.
 - The second element is at index 1.
 - The third element is at index 2.
 - And so on.
+
+Understanding index is important because it allows you to access specific elements inside the array.
+
+---
+
+## Common Array Methods
