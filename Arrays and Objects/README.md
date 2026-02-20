@@ -31,3 +31,6 @@ Understanding index is important because it allows you to access specific elemen
 
 ### 3. `shift`
 - Removes the first element of an array.
+
+### 4. `unshift`
+- Adds an element to the beginning of an array.
