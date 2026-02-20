@@ -48,3 +48,4 @@ An **object** is a data structure used to store a collection of related data and
 
 - A **key** is the name of the property.
 - A **value** is the data assigned to that key.
+- Objects help organize related information together.
