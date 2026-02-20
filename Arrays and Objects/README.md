@@ -58,3 +58,4 @@ Objects are flexible. You can:
 
 - Add new properties after the object is created.
 - Modify (change) the value of existing properties.
+- Delete properties if needed.
