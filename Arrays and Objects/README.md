@@ -8,3 +8,5 @@ Instead of creating many separate variables, you can store related values togeth
 ---
 
 ## Array Index
+
+An **index** is the position number of an element inside an array.
