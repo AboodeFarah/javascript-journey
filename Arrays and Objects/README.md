@@ -81,3 +81,5 @@ Objects can store both:
 ---
 
 ## Arrays of Objects
+
+An **array of objects** is a collection of multiple objects stored inside an array.
