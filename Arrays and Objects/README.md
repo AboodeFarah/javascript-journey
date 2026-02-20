@@ -22,3 +22,6 @@ Understanding index is important because it allows you to access specific elemen
 ---
 
 ## Common Array Methods
+
+### 1. `push`
+- Adds an element to the end of an array.
