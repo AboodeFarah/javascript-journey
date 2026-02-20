@@ -34,3 +34,6 @@ Understanding index is important because it allows you to access specific elemen
 
 ### 4. `unshift`
 - Adds an element to the beginning of an array.
+
+### 5. `length`
+- Returns the number of elements in an array.
