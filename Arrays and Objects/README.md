@@ -61,3 +61,7 @@ Objects are flexible. You can:
 - Delete properties if needed.
 
 This makes objects very powerful for storing dynamic data.
+
+---
+
+## Methods in Objects
