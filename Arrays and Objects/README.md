@@ -65,3 +65,19 @@ This makes objects very powerful for storing dynamic data.
 ---
 
 ## Methods in Objects
+
+
+A **method** is a function stored inside an object.
+
+- When a function is inside an object, it is called a method.
+- Methods allow objects to perform actions.
+- They help combine data and behavior inside one structure.
+
+Objects can store both:
+
+- Data (properties)
+- Actions (methods)
+
+---
+
+## Arrays of Objects
