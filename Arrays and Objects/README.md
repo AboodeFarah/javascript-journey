@@ -57,3 +57,4 @@ An **object** is a data structure used to store a collection of related data and
 Objects are flexible. You can:
 
 - Add new properties after the object is created.
+- Modify (change) the value of existing properties.
