@@ -26,6 +26,8 @@ Understanding index is important because it allows you to access specific elemen
 ### 1. `push`
 - Adds an element to the end of an array.
 
-
 ### 2. `pop`
 - Removes the last element of an array.
+
+### 3. `shift`
+- Removes the first element of an array.
