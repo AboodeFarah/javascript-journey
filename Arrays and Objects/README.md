@@ -39,3 +39,7 @@ Understanding index is important because it allows you to access specific elemen
 - Returns the number of elements in an array.
 
 Arrays are one of the most important data structures in JavaScript.
+
+---
+
+## What is an Object?
