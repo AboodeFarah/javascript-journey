@@ -53,3 +53,5 @@ An **object** is a data structure used to store a collection of related data and
 ---
 
 ## Adding and Modifying Properties
+
+Objects are flexible. You can:
