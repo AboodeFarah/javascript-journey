@@ -92,3 +92,6 @@ This is commonly used when:
 - Working with databases
 
 Each object inside the array represents one item in the collection.
+
+
+Objects are one of the most powerful and commonly used features in JavaScript.
