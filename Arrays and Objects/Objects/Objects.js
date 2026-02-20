@@ -31,3 +31,25 @@ console.log(person2);         //output  name:'aboode',age:23,city:'ceelbuur',bir
 
 person2.age = 30;   // Modifying an existing property
 console.log(person2);   //output  name: 'aboode', age: 30,city: 'ceelbuur', birthDay: 1984
+
+
+// method in object 
+
+
+let person3 = {
+    name : " aboode",
+    age : 23,
+    city : "ceelbuur",
+    greeting : function(){
+        console.log("hello world!")
+    },
+    add : (a,b) =>{
+        return a+b;
+    },
+    greeting2 : function(){
+        console.log("hello how are you" + this.name)
+    },
+
+}
+console.log(person3.add(3,2));
+console.log(person3.greeting2())
