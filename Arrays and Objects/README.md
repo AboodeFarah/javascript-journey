@@ -90,3 +90,5 @@ This is commonly used when:
 - Managing product lists
 - Handling grouped data
 - Working with databases
+
+Each object inside the array represents one item in the collection.
