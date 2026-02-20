@@ -45,3 +45,5 @@ Arrays are one of the most important data structures in JavaScript.
 ## What is an Object?
 
 An **object** is a data structure used to store a collection of related data and functionality as key-value pairs.
+
+- A **key** is the name of the property.
