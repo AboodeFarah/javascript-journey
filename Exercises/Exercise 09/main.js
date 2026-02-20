@@ -8,4 +8,5 @@ let car = {
         console.log("The car has started")
     },
 }
-console.log(car.start())
+// console.log(car.start())
+car.start()
