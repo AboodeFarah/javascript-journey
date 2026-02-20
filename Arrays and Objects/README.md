@@ -83,3 +83,10 @@ Objects can store both:
 ## Arrays of Objects
 
 An **array of objects** is a collection of multiple objects stored inside an array.
+
+This is commonly used when:
+
+- Storing multiple users
+- Managing product lists
+- Handling grouped data
+- Working with databases
