@@ -41,6 +41,8 @@ let fruits = [
   "Nectarine"
 ];
 
+
 for(let i = 0; i < fruits.length; i++){
     console.log(fruits[i])
 }
+console.log("array with "+ fruits.length + " fruits")
