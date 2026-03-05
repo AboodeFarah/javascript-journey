@@ -95,3 +95,45 @@ Each object inside the array represents one item in the collection.
 
 
 Objects are one of the most powerful and commonly used features in JavaScript.
+
+---
+
+# JavaScript High-Order Array Methods
+
+## What Are High-Order Array Methods?
+
+**High-Order Array Methods** are JavaScript array methods that take a function as an argument and apply that function to each element of the array.
+
+---
+
+# Common High-Order Array Methods
+
+Some commonly used high-order array methods in JavaScript are:
+
+### 1. `forEach()`
+- Executes a function for each element in the array.
+- Used when you want to perform an action on every element.
+
+---
+
+### 2. `map()`
+- Creates a **new array** by transforming each element of the original array.
+- The original array remains unchanged.
+
+---
+
+### 3. `filter()`
+- Returns a **new array** containing elements that satisfy a specific condition.
+
+---
+
+### 4. `reduce()`
+- Reduces the array into a **single value**.
+- Often used for calculations like totals, sums, or aggregations.
+
+---
+
+# Summary
+
+High-Order Array Methods allow you to pass functions to array methods in order to process elements efficiently.
+
