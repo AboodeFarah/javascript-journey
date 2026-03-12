@@ -3,7 +3,7 @@
 function delayedSuccess() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            const success = false; // Simulating success condition
+            const success = true; // Simulating success condition
             if (success) {
                 resolve("Operation completed successfully!");
             } else {
