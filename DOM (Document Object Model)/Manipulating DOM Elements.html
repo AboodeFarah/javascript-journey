@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating DOM Elements</title>
+</head>
+<body>
+
+    <h1 id="header">Hello, World!</h1>
+    <p class="text">This is a paragraph.</p>
+    <p class="text">This is another paragraph.</p>
+
+    <button onclick="changingContent()" >cahngeing The Elements</button>
+    <button onclick="changingHtml()">Cancel</button>
+
+
+    <script>
+
+        // Manipulating DOM Elements
+
+        function changingContent(){
+
+            //changing content elements
+            const header = document.querySelector('#header');
+
+            header.textContent = 'Hello, JavaScript!';
+
+        }
+
+        function changingHtml(){
+
+            //Changing HTML content
+            const firstParapraph = document.querySelectorAll('.text');
+
+            firstParapraph[0].innerHTML = 'Hello, World!';
+            firstParapraph[1].innerHTML = 'This is a new paragraph.';
+        }
+
+    </script>
+</body>
+</html>
