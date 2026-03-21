@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 33</title>
+</head>
+<body>
+    <p>Task: Create a button that, when clicked, changes the text and HTML content of different elements on the page. Implement the changeContent function as shown in the example.</p>
+
+    <h1 id="header">Hello, World!</h1>
+    <p class="text">This is a paragraph.</p>
+
+    <button onclick="changeClick()" >Click</button>
+
+    <script>
+
+        function changeClick(){
+            
+            // Changing content of elements
+            const head = document.querySelector('#header');
+            head.textContent = 'Hello, JavaScript!';
+
+            // Changing HTML content
+            const firstParagraph = document.querySelector('.text');
+            firstParagraph.innerHTML = 'This is a new <strong> paragraph.</strong>';
+        }
+
+    </script>
+</body>
+</html>
