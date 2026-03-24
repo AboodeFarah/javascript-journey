@@ -18,6 +18,7 @@
     <script>
         const list = document.querySelector('#list');
 
+        //add item to the list
         function addItem(){
             //create new element
             const newItem = document.createElement('li');
@@ -28,6 +29,18 @@
             //append the new element to the list
             list.appendChild(newItem);
 
+        }
+        //remove item from the list
+        function removeItem(){
+            //remove the last item from the list
+            if(list.lastElementChild ){
+
+                list.removeChild(list.lastElementChild);
+            }
+            else{
+                alert('No more items to remove!');
+            }
+            
         }
     </script>
 </body>
