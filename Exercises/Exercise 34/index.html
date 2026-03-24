@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 34</title>
+</head>
+<body>
+    
+    <ul id="lists">
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+    </ul>
+
+    <button onclick="addItem()">Add Item</button>
+    <button onclick="removeItem()">Remove Item</button>
+
+
+    <script>
+        // Task: Create two buttons—one to add a new list item to a list and another to remove the last item from the list. Implement the addItem and removeItem functions as shown in the example.
+
+
+        const list = document.querySelector('#lists');
+
+        //add list item to the list 
+        function addItem(){
+            //create new item
+            if(list.children.length >= 5){
+                alert('Maximum number of items reached!');
+                return;
+            }
+            const newItem = document.createElement('li');
+
+            newItem.textContent = 'list 4';
+
+            list.appendChild(newItem);
+        }
+
+        //remove list item from the list
+        function removeItem(){
+            if(list.lastElementChild){
+
+               list.removeChild(list.lastElementChild); 
+            }else{
+                alert('No more items to remove!');
+            }
+            
+        }
+
+    </script>
+</body>
+</html>
