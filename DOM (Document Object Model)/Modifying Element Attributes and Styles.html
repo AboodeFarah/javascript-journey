@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifying Element Attributes and Styles</title>
+</head>
+<body>
+    
+    <!-- // Adding an image element with an initial source and styles -->
+    <img id="image" src="https://images.unsplash.com/photo-1774249890206-081fd2e702d5?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8" alt="Image" width="200">
+    <button onclick="changeImage()">Change Image</button>
+
+    <!-- // Adding some space between the image and the text -->
+    <h1 id="title">welcome to JavaScript</h1>
+    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur impedit officiis necessitatibus rerum, voluptatibus sed quisquam. Velit nostrum asperiores nulla.</p>
+    <button onclick="changeTextStyle()">Changing Text Style</button><br>
+
+
+    <!-- lightMode & darkMode -->
+
+    <button onclick="setLightMode()">Light Mode</button>
+    <button onclick="setDarkMode()">Dark Mode</button>
+
+    <script>
+
+
+        // Function to change the image source and styles
+        function changeImage(){
+
+        const images = document.querySelector('#image');
+
+        // const url = prompt("Enter the new image URL:");
+
+
+            images.setAttribute('src', 'https://images.unsplash.com/photo-1774247993490-7d1469a3de97?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D');
+
+
+            images.style.backgroundColor = 'skyblue';
+            images.style.padding = '10px';
+            images.style.borderRadius = '10px';
+
+        }
+
+
+
+        // Function to change the text styles
+        function changeTextStyle(){
+
+            const header = document.querySelector('#title');
+            const paragraph = document.querySelector('.text');
+
+            header.style.color = 'blue';
+            header.style.fontSize = '36px';
+
+            paragraph.style.color = 'green';
+            paragraph.style.fontSize = '18px';
+            paragraph.style.fontStyle = 'italic';
+
+        }
+
+        // Function to set light mode
+        function setLightMode(){
+            document.body.style.backgroundColor = 'white';
+            document.body.style.color = 'black';
+        }
+
+        // Function to set dark mode
+        function setDarkMode(){
+            document.body.style.backgroundColor = 'black';
+            document.body.style.color = 'white';
+        }
+    </script>
+    
+</body>
+</html>
