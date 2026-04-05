@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preventing Default Actions</title>
+</head>
+<body>
+
+    <h1>Preventing Default Actions</h1>
+
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter your name">
+        <button type="submit">Submit</button>
+
+        <p id="formOutput"></p>
+    </form>
+
+    <script>
+        const form = document.querySelector('#myForm');
+        const formOutput = document.querySelector('#formOutput');
+
+        form.addEventListener('submit', function(event){
+            event.preventDefault();
+            console.log("Form submitted");
+
+            formOutput.textContent = `Form submitted `;
+        })
+    </script>
+    
+</body>
+</html>
