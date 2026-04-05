@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change event</title>
+</head>
+<body>
+
+    <label for="color">Choose Color</label>
+    <select name="color" id="color">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">yellow</option>
+    </select>
+    <p id="userOutput">Current Color is : none</p>
+
+    <label for="username"> User Name</label>
+    <input type="text" id="userName" placeholder="Enter Your Name ">
+    <p id="userNameOutput">Current Username is : none</p>
+
+    <script>
+        const select = document.querySelector('#color');
+        const userOutput = document.querySelector('#userOutput');
+        const userName = document.querySelector('#userName');
+        const userNameOutput = document.querySelector('#userNameOutput');
+
+        userName.addEventListener('change', function(){
+            console.log("Current Username is :" +userName.value);
+            userNameOutput.textContent = `Current Username is : ${userName.value}`;
+        })
+
+        select.addEventListener('change', function(){
+            console.log("Current Color is :" + select.value);
+            userOutput.textContent = `Current Color is : ${select.value}`;
+        })
+    </script>
+    
+</body>
+</html>
